@@ -1,0 +1,21 @@
+.workout-balken {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    gap: 10px;
+}
+
+.workout-element-1,
+.workout-element-2,
+.workout-element-3,
+.workout-element-4,
+.workout-element-5,
+.workout-element-6,
+.workout-element-7
+ {
+    height: 80px;
+    width: 40px;
+    border-style: solid;
+    border-color: black;
+}
+
