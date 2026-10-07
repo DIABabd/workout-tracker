@@ -1,6 +1,5 @@
 .workout-diagram {
     margin-bottom: 50px;
-
 }
 
 .workout-balken {
@@ -8,6 +7,7 @@
     width: 500px;
     display: flex;
     gap: 70px;
+    margin-top: 20px;
 }
 
 .workout-dates {
@@ -15,49 +15,29 @@
     gap: 45px;
 }
 
-.chest-triceps-workout-element {
+.workout-bar {
     height: 80px;
     width: 40px;
+    border-style: solid;
+    border-color: black;
+}
+
+.chest-triceps-workout {
     background-color: orange;
-    border-style: solid;
-    border-color: black;
 }
 
-.back-biceps-workout-element {
-    height: 80px;
-    width: 40px;
+.back-biceps-workout {
     background-color: red;
-    border-style: solid;
-    border-color: black;
 }
 
-.shoulders-traps-workout-element {
-    height: 80px;
-    width: 40px;
+.shoulders-traps-workout {
     background: yellow;
-    border-style: solid;
-    border-color: black;
 }
 
-.legs-core-workout-element {
-    height: 80px;
-    width: 40px;
+.legs-core-workout {
     background-color: blue;
-    border-style: solid;
-    border-color: black;
 }
 
-.boxing-workout-element {
-    height: 80px;
-    width: 40px;
+.boxing-workout {
     background-color: brown;
-    border-style: solid;
-    border-color: black;
-}
-
-.empty-workout-element {
-    height: 80px;
-    width: 40px;
-    border-style: solid;
-    border-color: black;
 }
