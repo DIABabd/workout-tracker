@@ -3,6 +3,7 @@
     align-items: center;
     height: 400px;
     width: 600px;
+    flex-direction: column;
 }
 
 .workout-balken {
@@ -52,4 +53,10 @@
     padding: 6px;
     text-decoration: none;
     color: black;
+}
+
+.week-date-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
 }
