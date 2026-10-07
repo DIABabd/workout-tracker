@@ -1,8 +1,18 @@
+.workout-diagram {
+
+
+}
+
 .workout-balken {
-    height: 300px;
+    height: 100px;
     width: 500px;
     display: flex;
-    gap: 5px;
+    gap: 70px;
+}
+
+.workout-dates {
+    display: flex;
+    gap: 45px;
 }
 
 .chest-triceps-workout-element {
