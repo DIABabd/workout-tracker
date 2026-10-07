@@ -10,11 +10,6 @@
     margin-top: 20px;
 }
 
-.workout-dates {
-    display: flex;
-    gap: 45px;
-}
-
 .workout-bar {
     height: 80px;
     width: 40px;
@@ -40,4 +35,13 @@
 
 .boxing-workout {
     background-color: brown;
+}
+
+.new-training-button {
+    height: 30px;
+    width: 40px;
+    font-size: small;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
 }
