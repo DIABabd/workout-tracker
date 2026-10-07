@@ -1,5 +1,5 @@
 .workout-diagram {
-
+    margin-bottom: 50px;
 
 }
 
@@ -51,6 +51,13 @@
     height: 80px;
     width: 40px;
     background-color: brown;
+    border-style: solid;
+    border-color: black;
+}
+
+.empty-workout-element {
+    height: 80px;
+    width: 40px;
     border-style: solid;
     border-color: black;
 }
