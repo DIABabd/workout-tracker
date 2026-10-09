@@ -13,8 +13,5 @@
 
 .training-form {
     display: flex;
-}
-
-.training-submit {
-    display: flex;
+    flex-direction: column;
 }
