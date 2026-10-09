@@ -11,6 +11,10 @@
     width: 600px;
 }
 
-.training-submit-back {
+.training-form {
+    display: flex;
+}
+
+.training-submit {
     display: flex;
 }
