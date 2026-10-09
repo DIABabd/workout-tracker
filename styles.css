@@ -46,7 +46,7 @@
     background-color: brown;
 }
 
-.new-training-button {
+.btn {
     display: inline-block;
     border-style: solid;
     border-radius: 10px;
