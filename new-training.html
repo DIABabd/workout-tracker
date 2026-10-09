@@ -14,40 +14,32 @@
                 <form>
                     <label for="exercise-date">Date:</label>
                     <input type="date" id="exercise-date" name="exercise-date" required>
-                    <label for="training-day">Training</label>
+                    <label for="training-day">Training:</label>
                     <select name="training-day" id="training-day" required>
-                        <option value="">Chest-Triceps</option>
-                        <option value="">Back-Biceps</option>
-                        <option value="">Shoulders-Traps</option>
-                        <option value="">Legs-Core</option>
-                        <option value="">Boxing</option>
-                    </select>
-                </form>
+                        <option value="chest-triceps">Chest-Triceps</option>
+                        <option value="back-biceps">Back-Biceps</option>
+                        <option value="shoulders-traps">Shoulders-Traps</option>
+                        <option value="legs-core">Legs-Core</option>
+                        <option value="boxing">Boxing</option>
+                    </select>        
             </div>
-            
-            
+        
             <div class="exercise-name-weight">
-                <form>
                     <label for="exercise-name">Exercise:</label>
                     <input type="text" id="exercise-name" name="exercise-name" required>
                     <label for="exercise-weight">Weight (kg):</label>
-                    <input type="number" id="exercise-weight" name="exercise-weight" min="0" required>
-                </form>
+                    <input type="number" id="exercise-weight" name="exercise-weight" min="0" step="0.5" required>
             </div>
             
             
             <div class="exercise-sets-reps">
-                <form>    
                     <label for="exercise-sets">Sets:</label>
                     <input type="number" id="exercise-sets" name="exercise-sets" min="0" required>
                     <label for="exercise-reps">Reps:</label>
                     <input type="number" id="exercise-reps" name="exercise-reps" min="0" required>
-                </form>
             </div>
-            
 
             <div class="training-submit-back">
-                <form>
                     <input type="submit" value="Save">
                 </form>
 
