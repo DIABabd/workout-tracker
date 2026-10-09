@@ -23,6 +23,7 @@
 
 .workout-element {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -48,6 +49,7 @@
 }
 
 .btn {
+    display: inline-block;
     border-style: solid;
     border-radius: 10px;
     padding: 6px;
@@ -60,4 +62,21 @@
     justify-content: space-evenly;
     align-items: center;
     width: 300px;
+}
+
+.legend-btn {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.legend {
+    display: flex;
+}
+
+.legend-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
