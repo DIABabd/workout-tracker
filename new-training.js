@@ -14,7 +14,15 @@ form.addEventListener("submit", function(event) {
     const exerciseWeightValue = exerciseWeight.value;
     const exerciseSetsValue = exerciseSets.value;
     const exerciseRepsValue = exerciseReps.value;
-    
-    console.log(exerciseDateValue, trainingDayValue, exerciseNameValue, exerciseWeightValue, exerciseSetsValue, exerciseRepsValue);
 
+    const training = {
+        date: exerciseDateValue,
+        type: trainingDayValue,
+        exercise: exerciseNameValue,
+        weight: exerciseWeightValue,
+        sets: exerciseSetsValue,
+        reps: exerciseRepsValue
+    }
+    
+    console.log(training);
 });
